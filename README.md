@@ -12,10 +12,10 @@
 11)
 12)
 13)https://github.com/vanek1337228/julia228/blob/main/zadanie13%20(1).jl
-14)
-15)
-16)
-17)
-18)
+14)https://github.com/vanek1337228/julia228/blob/main/zadanie14.jl
+15)https://github.com/vanek1337228/julia228/blob/main/zadanie15.jl
+16)https://github.com/vanek1337228/julia228/blob/main/zadanie16.jl
+17)https://github.com/vanek1337228/julia228/blob/main/zadanie17.jl
+18)https://github.com/vanek1337228/julia228/blob/main/zadanie18.jl
 19)
 21)https://github.com/vanek1337228/julia228/blob/main/task21.jl
