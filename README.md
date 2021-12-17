@@ -1,9 +1,9 @@
 # julia228
 1)https://github.com/vanek1337228/julia228/blob/main/1zadanie.jl
 2)https://github.com/vanek1337228/julia228/blob/main/zadanie2.jl
-3)
-4)
-5)
+3)https://github.com/vanek1337228/julia228/blob/main/task3.jl
+4)https://github.com/vanek1337228/julia228/blob/main/task4.jl
+5)https://github.com/vanek1337228/julia228/blob/main/task5.jl
 6)
 7)https://github.com/vanek1337228/julia228/blob/main/task7.jl
 8)
