@@ -1,7 +1,7 @@
 using HorizonSideRobots
 
 
-function mark_x_cross(r::Robot)
+function mark_x_cross(r::Robot)#основная функция для решения задачи
     for side1 in 0:3
         side2 = (side1+1)%4
         println(side2)
@@ -11,7 +11,7 @@ function mark_x_cross(r::Robot)
     putmarker!(r)
 end
 
-function move_twice!(r, side1, side2)
+function move_twice!(r, side1, side2)#кусок кода, отвечающий за движение по диагонали(по двум координатам, вместо одной)
 	move!(r, HorizonSide(side1))
 	move!(r,  HorizonSide(side2))
 end
@@ -24,13 +24,13 @@ function move_forward!(r, side1, side2)
     end
 end
 
-function return_to_start!(r, side1, side2)
+function return_to_start!(r, side1, side2)#возвращает робота в начало
     while ismarker(r)
         move_twice!(r, side1, side2)
     end
 end
 
-function change_side(side)
+function change_side(side)#меняет сторону движения
     return mod(side+2, 4)
 end
 
