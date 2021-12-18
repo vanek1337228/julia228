@@ -35,7 +35,7 @@ function check_of_marker(r::Robot,side::HorizonSide) #если робот нах
         putmarker!(r)
      end   
 end    
-function putmarkers!(r::Robot, side::HorizonSide,steps::Int) 
+function putmarkers!(r::Robot, side::HorizonSide,steps::Int) #расставляет маркеры
     for j in 1:steps
         check_of_marker(r,side)
     end
@@ -48,7 +48,7 @@ function checking(r::Robot,side::HorizonSide) #считывает сколько
      end
     return num_steps 
 end 
-function back(r::Robot,side::HorizonSide) 
+function back(r::Robot,side::HorizonSide)#возвращает робота назад 
     while !isborder(r,side)
         move!(r,side)
     end
